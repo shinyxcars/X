@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontakt – ShinyX Cars</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>ShinyX Cars</h1>
+        <nav>
+            <a href="index.html">Startseite</a>
+            <a href="leistungen.html">Leistungen</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Kontaktieren Sie uns</h2>
+        <form action="mailto:info@shinyxcars.de" method="post" enctype="text/plain">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="nachricht">Nachricht:</label><br>
+            <textarea id="nachricht" name="nachricht"></textarea><br>
+            <button type="submit">Absenden</button>
+        </form>
+        <h3>Öffnungszeiten</h3>
+        <ul>
+            <li>Mo-Fr: 08:00 – 18:00 Uhr</li>
+            <li>Sa: 09:00 – 14:00 Uhr</li>
+        </ul>
+        <h3>Standort</h3>
+        <p>Musterstraße 1, 12345 Musterstadt</p>
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=13.404954,52.520008,13.404954,52.520008&layer=mapnik" style="width:100%;height:300px;border:none;"></iframe>
+    </main>
+    <footer>
+        <p>&copy; 2025 ShinyX Cars</p>
+    </footer>
+</body>
+</html>
