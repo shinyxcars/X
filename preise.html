@@ -4,16 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kontakt – Shiny Cars</title>
+  <title>Preise – Shiny Cars</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body { margin: 0; font-family: 'Montserrat', sans-serif; background-color: #0f0f0f; color: #e0e0e0; }
     header, footer { background-color: #0a0a0a; padding: 20px; text-align: center; }
     nav a { color: #00ff80; margin: 0 10px; text-decoration: none; font-weight: 600; }
     .section { padding: 40px; text-align: center; }
-    form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 10px; }
-    input, textarea { padding: 10px; border: none; border-radius: 5px; }
-    button { padding: 10px; background-color: #00ff80; color: #0f0f0f; font-weight: bold; border: none; border-radius: 5px; }
+    h1, h2 { color: #00ff80; }
+    .preise { max-width: 600px; margin: auto; }
+    .preise div { border: 1px solid #00ff80; border-radius: 10px; padding: 20px; margin: 10px 0; }
   </style>
 </head>
 <body>
@@ -26,19 +26,14 @@
       <a href="kontakt.html">Kontakt</a>
     </nav>
   </header>
-  <div class="section">
-    <h1>Kontaktformular</h1>
-    <form action="mailto:shiny.carsx@gmail.com" method="post" enctype="text/plain">
-      <input type="text" name="name" placeholder="Ihr Name" required>
-      <input type="email" name="email" placeholder="Ihre E-Mail" required>
-      <textarea name="message" rows="5" placeholder="Ihre Nachricht" required></textarea>
-      <button type="submit">Senden</button>
-    </form>
-    <p style="margin-top: 30px;">📧 Kontakt: shiny.carsx@gmail.com<br>📍 Standort: Auf Anfrage</p>
-
+  <div class="section preise">
+    <h1>Preise & Pakete</h1>
+    <div><h2>Basic</h2><p>Innen- & Außenreinigung</p><strong>ab 49 €</strong></div>
+    <div><h2>Premium</h2><p>+ Lackpolitur & Felgenpflege</p><strong>ab 99 €</strong></div>
+    <div><h2>Exklusiv</h2><p>+ Keramikversiegelung, Motorraum</p><strong>ab 199 €</strong></div>
   </div>
   <footer>
-    &copy; 2025 Shiny Cars
+    &copy; 2025 Shiny Cars – shiny.carsx@gmail.com
   </footer>
 </body>
 </html>

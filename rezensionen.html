@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rezensionen – Shiny Cars</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .review-section {
+      max-width: 1000px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+
+    .review-section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #4ade80;
+    }
+
+    .reviews {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .review-card {
+      background: #1c1c1c;
+      border-radius: 16px;
+      padding: 20px;
+      flex: 1 1 300px;
+      box-shadow: 0 4px 15px rgba(0, 255, 130, 0.15);
+      transition: transform 0.3s;
+    }
+
+    .review-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .review-name {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: #4ade80;
+    }
+
+    .review-rating {
+      color: gold;
+      margin: 5px 0;
+    }
+
+    .review-text {
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="review-section">
+    <h2>Was unsere Kunden sagen</h2>
+    <div class="reviews">
+
+      <div class="review-card">
+        <div class="review-name">Markus S.</div>
+        <div class="review-rating">★★★★★</div>
+        <div class="review-text">Mein Auto sieht aus wie neu! Super Service, schnelle Abwicklung und sehr freundlich. Absolut empfehlenswert!</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-name">Laura M.</div>
+        <div class="review-rating">★★★★★</div>
+        <div class="review-text">Die Aufbereitung war top! Innen wie außen – glänzt wie frisch aus dem Werk.</div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-name">Ali R.</div>
+        <div class="review-rating">★★★★☆</div>
+        <div class="review-text">Sehr gute Arbeit. Kleiner Abzug, da es ein wenig länger gedauert hat als geplant. Trotzdem sehr zufrieden.</div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>
